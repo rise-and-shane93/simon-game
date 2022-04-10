@@ -1,0 +1,67 @@
+#game {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.color {
+    width: 250px;
+    height: 250px;
+}
+
+#red {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#red.dark {
+    background-color: #800000; /* dark */
+}
+
+#red.light {
+    background-color: red;
+}
+
+#yellow {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#yellow.dark {
+    background-color: #7f8000; /* dark */
+}
+
+#yellow.light {
+    background-color: yellow;
+}
+
+#blue {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#blue.dark {
+    background-color: #000080; /* dark */
+}
+
+#blue.light {
+    background-color: blue;
+}
+
+#green {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#green.dark {
+    background-color: #008000; /* dark */
+}
+
+#green.light {
+    background-color: green;
+}
